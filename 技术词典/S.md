@@ -9,4 +9,12 @@
 
 软连接常用于设置环境变量，尤其是当安装有不同的程序版本时，如JDK，Maven等。  
 
-参考：http://www.cnblogs.com/itech/archive/2009/04/10/1433052.html
+参考：http://www.cnblogs.com/itech/archive/2009/04/10/1433052.html  
+
+## Static Import ##
+### 静态导入 ###
+JDK1.5引入的新特性，即导入静态的方法和变量。作用是使导入的静态类对当前类直接可见，无需给出类名即可调用方法。经常用于单元测试中导入测试框架的Assert方法。  
+
+`import static org.junit.Assert.*;'`  
+
+参考：http://www.cnblogs.com/mengdd/archive/2013/01/23/2873312.html
